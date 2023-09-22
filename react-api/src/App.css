@@ -40,3 +40,38 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* Estilo general de la tabla */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+/* Estilo de las celdas del encabezado de la tabla */
+.table th {
+  background-color: #007bff;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #007bff;
+}
+
+/* Estilo de las celdas de datos de la tabla */
+.table td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Estilo de las filas pares de la tabla */
+.table tbody tr:nth-child(even) {
+  background-color: #595959;
+}
+
+/* Hover sobre filas */
+.table tbody tr:hover {
+  background-color: #007bff;
+  color: #fff;
+}
